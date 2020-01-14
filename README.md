@@ -68,23 +68,42 @@ Read The coolculator class and tests.
 
 **What methods does the Cooclulator currently implement?**
 
+Only "add"
+
 **Describe how the existing test works**
+
+Instantiates the coolculator class as "mm"
+Calls the method "add" in "mm", adding the numbers 2 and 3, assigning the returned to "result"
+Expects the contents of "result" to be 5
 
 **Change a value in the `add()` test so it fails.**
 Once you've seen it fail, revert your change so it's green again.
 
-**Changethe implementation of `add()` so it always returns `1000`.**
+Done
+
+**Change the implementation of `add()` so it always returns `1000`.**
 Once you've seen it fail, revert your change so it's green again.
+
+Done
 
 Now let's do some TDD! Uncomment the `multiply()` test.
 
 **What do you expect to happen when you run your tests?**
 
+The test to fail and error that the multiply method does not exist.
+
 **What actually happened when you ran your tests?**
+
+mm.multiply is not a function
 
 **Add a method to the Coolculator so the test passes green**
 
+Done
+
 **Uncomment the `subtract()` test and write some code to make it green**
+
+Done
+
 Remember the process: Red / Green / Refactor - is there any refactoring you could do to clean up your code?
 
 > 💡 **REMINDER**: Do you need to commit your answers to the questions above?
