@@ -145,6 +145,8 @@ Add some more tests for JavaScript's built-in array methods:
 
 ## Part 5 (super-extension)
 
+Done
+
 ⚠️ _Don't attempt this unless you've finished all your other work_
 
 Use TDD to adapt your add method so it takes an **arbitrary number** of integers as arguments, and adds them all together, eg:
