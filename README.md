@@ -51,8 +51,12 @@ Look in [`array.test.js`](test/array.test.js). This contains some tests for Java
 
 **What do the existing tests actually test (explain in english)?**
 
+The first one tests that array.push, adds the given value to the end of the array. The second tests only that array.push adds an item to the array.
+
 **Add a test for the `pop()` method.**
 Hint: You'll need _two_ assertions to fully test that it `pop()` works. Explain why you chose these assersions here.
+
+The chosen assertions check that the last item from the array is removed, and that the length of the array is altered.
 
 > 💡 **REMINDER**: Do you need to commit your answers to the questions above?
 
